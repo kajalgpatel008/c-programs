@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	float a,b,c;
+	clrscr();
+	printf("\nEnter A :");
+	scanf("%f",&a);
+	printf("\nEnter B :");
+	scanf("%f",&b);
+	c=a+b;
+	printf("Addition : %f",c);
+	c=a-b;
+	printf("\nSubtraction : %f",c);
+	c=a*b;
+	printf("\nMultiplication : %f",c);
+	c=a/b;
+	printf("\nDivision : %f",c);
+	getch();
+}

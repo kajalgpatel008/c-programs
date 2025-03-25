@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+	char s1[50],s2[50];
+	int l1,l2;
+	clrscr();
+	printf("\nEnter String s1 :");
+	gets(s1);
+	l1=strlen(s1);
+	printf("\nEnter string s2 :");
+	gets(s2);
+	l2=strlen(s2);
+	if(l1==l2)
+	{
+		printf("\nLength of both string are equal");
+	}
+	else
+	{
+		printf("\nLength of both string are not equal");
+	}
+	getch();
+}
+
+
