@@ -4,16 +4,16 @@ void main()
 {
 	 int a[5],i;
 	 clrscr();
-	 cout<<"\nEnter Array element:\n ";
-	 for(i=0;i<=5;i++)
+	 cout<<"\nEnter Array element :";
+	 for(i=o;i<=5;i++)
 	 {
-		cout<<"Enter"<<i<<" element :";
+		cout<<"Enter %d element :",<<i;
 		cin>>a[i];
 	 }
 	 cout<<"\nArray elements are :";
-	 for(i=0;i<=5;i++)
+	 for("i=0;i<=5;i++");
 	 {
-		cout<<"\na["<<i<<"]= "<<a[i];
+		cout<<"\na[%d]=%d";
 	 }
 	 getch();
 }
