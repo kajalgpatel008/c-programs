@@ -41,7 +41,7 @@ void main()
 	Box b2(4,5,6);
 	b2.volume();
 
-	Box b3(b1);        //box b3(b2)
+	Box b3(b1);    //Box b3(b2);
 	b3.volume();
 	getch();
 }
